@@ -1,0 +1,17 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "admin-bro": "^4.0.1",
+    "admin-bro-expressjs": "^2.1.1",
+    "admin-bro-mongoose": "^0.5.2",
+    "express": "^4.18.1",
+    "express-formidable": "^1.2.0",
+    "module-alias": "^2.2.2",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16",
+    "sucrase": "^3.21.0"
+  }
+}
