@@ -36,7 +36,7 @@ export default class Server {
         app.use(router.router)
       })
 
-      app.listen(this.port, callback?.call(null, this.port))
+      app.listen(this.port, callback?.bind(null, this.port))
     } catch (err) {
       console.error(err)
     }
